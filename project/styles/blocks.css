@@ -1,0 +1,78 @@
+/* ============================================================
+   CALON V2, content blocks (problem cards, build cards, who-we-help, workflows)
+   ============================================================ */
+
+/* hero overline tagline */
+.overline{font-family:var(--mono);font-size:12.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-300);display:flex;align-items:center;gap:11px;}
+.overline .dot{width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 9px var(--teal);flex:none;}
+.hero-trust{font-family:var(--mono);font-size:12.5px;letter-spacing:.03em;color:var(--on-dark-dim);margin-top:26px;}
+
+/* ---- PROBLEM CARDS (5) ---- */
+.prob-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;}
+.prob{background:var(--paper-2);border:1px solid var(--line-light);border-radius:14px;padding:26px;transition:transform .25s var(--ease),box-shadow .25s,border-color .25s;}
+.prob:hover{transform:translateY(-4px);box-shadow:0 22px 50px -30px rgba(10,22,40,.32);border-color:#d4deeb;}
+.prob .pnum{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--red);letter-spacing:.06em;}
+.prob h3{font-size:19px;margin:14px 0 10px;letter-spacing:-.01em;}
+.prob p{color:var(--slate);font-size:15px;margin:0;}
+.prob:nth-child(4),.prob:nth-child(5){grid-column:span 1;}
+
+/* ---- BUILD CARDS (6) ---- */
+.build-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;}
+.buildc{background:var(--navy-800);border:1px solid var(--line-dark);border-radius:14px;padding:28px 26px;transition:transform .25s var(--ease),border-color .25s,box-shadow .25s;scroll-margin-top:104px;}
+.buildc:target{border-color:var(--teal);box-shadow:0 0 0 1px var(--teal),0 0 40px -10px rgba(14,165,233,.6);}
+.buildc:hover{transform:translateY(-4px);border-color:var(--line-dark-2);}
+.buildc .bi{width:42px;height:42px;border-radius:11px;background:var(--teal-bg);color:var(--teal);display:flex;align-items:center;justify-content:center;margin-bottom:18px;}
+.buildc .bi svg{width:21px;height:21px;}
+.buildc h3{color:#fff;font-size:19px;margin:0 0 10px;letter-spacing:-.01em;}
+.buildc .bd{color:var(--on-dark);font-size:14.5px;margin:0 0 16px;}
+.buildc ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px;}
+.buildc li{font-family:var(--mono);font-size:12px;letter-spacing:.02em;color:var(--on-dark-dim);padding-left:15px;position:relative;}
+.buildc li::before{content:"+";position:absolute;left:0;color:var(--teal);font-weight:700;}
+.cardmore{display:inline-flex;align-items:center;gap:8px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line-dark);font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;color:var(--teal-300);transition:gap .2s var(--ease);}
+.buildc:hover .cardmore{gap:12px;}
+.s-paper .cardmore,.s-white .cardmore{color:var(--teal-deep);border-color:var(--line-light);}
+.s-paper .buildc{background:var(--paper-2);border-color:var(--line-light);}
+.s-paper .buildc h3{color:var(--ink);}
+.s-paper .buildc .bd{color:var(--slate);}
+.s-paper .buildc li{color:var(--slate-dim);}
+.s-paper .buildc .bi{color:var(--teal-deep);}
+
+/* ---- WHO WE HELP (3 col) ---- */
+.wwh-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;}
+.wwh{display:flex;flex-direction:column;background:var(--paper-2);border:1px solid var(--line-light);border-radius:16px;padding:32px 30px;transition:transform .25s var(--ease),box-shadow .25s,border-color .25s;}
+.wwh:hover{transform:translateY(-5px);box-shadow:0 28px 60px -34px rgba(10,22,40,.4);border-color:#cdd9ea;}
+.wwh-tag{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);}
+.wwh h3{margin:12px 0 16px;font-size:23px;}
+.wwh ul{list-style:none;padding:0;margin:0 0 22px;display:flex;flex-direction:column;gap:9px;flex:1;}
+.wwh li{font-size:14.5px;color:var(--slate);padding-left:18px;position:relative;}
+.wwh li::before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:var(--red);opacity:.7;}
+.wwh .txtlink{margin-top:auto;}
+
+/* ---- WORKFLOW EXAMPLES ---- */
+.flowrow{display:flex;align-items:center;gap:0;flex-wrap:wrap;padding:22px 26px;border:1px solid var(--line-dark);border-radius:13px;background:var(--navy-800);margin-top:14px;}
+.flowrow .fstep{font-family:var(--display);font-weight:700;font-size:15px;color:#fff;padding:9px 15px;border:1px solid var(--line-dark-2);border-radius:8px;background:var(--navy-850);white-space:nowrap;}
+.flowrow .farr{color:var(--teal);margin:0 12px;font-family:var(--mono);font-weight:700;}
+.s-paper .flowrow{background:var(--paper-2);border-color:var(--line-light);}
+.s-paper .flowrow .fstep{background:var(--paper);border-color:var(--line-light);color:var(--ink);}
+.s-paper .flowrow .farr{color:var(--teal-deep);}
+
+/* ---- HOW IT WORKS 4-step (home) ---- */
+.hiw-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px;}
+
+/* ---- TIER 3 designed concept chips ---- */
+.designed-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px;}
+.designed{display:flex;gap:16px;align-items:flex-start;padding:22px 24px;border:1px solid var(--line-dark);border-radius:13px;background:var(--navy-800);}
+.designed .dn{font-family:var(--display);font-weight:800;font-size:18px;color:var(--teal-300);flex:none;}
+.designed b{color:#fff;display:block;font-family:var(--display);font-size:16px;margin-bottom:4px;}
+.designed span{color:var(--on-dark-dim);font-size:14px;}
+
+@media (max-width:960px){
+  .prob-grid,.build-grid,.wwh-grid{grid-template-columns:1fr 1fr;}
+  .hiw-grid{grid-template-columns:1fr 1fr;}
+  .designed-grid{grid-template-columns:1fr;}
+}
+@media (max-width:620px){
+  .prob-grid,.build-grid,.wwh-grid,.hiw-grid{grid-template-columns:1fr;}
+  .flowrow{gap:8px;}
+  .flowrow .farr{margin:0 4px;}
+}

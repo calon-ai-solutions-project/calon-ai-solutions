@@ -1,0 +1,878 @@
+CALON AI SOLUTIONS
+Website V2 — Final Commercial Architecture
+The definitive build brief — proof architecture, homepage wireframe, full sitemap, copy direction
+Version 1.0  |  June 2026  |  Prepared for Alom + Fabrizio
+What this document is
+This is the complete build brief for calonaisolutions.com V2. It incorporates everything from the audit, rebuild brief, and optimisation brief — plus the proof intelligence extracted from the Volt Secure, HeatGlow, The Cwtch, and BRIC Living proposals.
+
+You do not need any other document to build the site. This is the single source of truth.
+[Heading1] Contents
+1.   The Positioning Statement — One Page, Non-Negotiable
+2.   The Proof Architecture — What We Have and How to Use It
+3.   The Operational Visibility Framework — Final Spec
+4.   Site Architecture — Final Sitemap
+5.   Homepage — Full Wireframe with Copy
+6.   Vertical Landing Pages — Trades & Security/FM
+7.   How It Works Page
+8.   Proof / Case Studies Page — Full Structure
+9.   About Page
+10.  Book the Diagnostic Page
+11.  Navigation — Final Structure
+12.  Trust Architecture — What Goes Where
+13.  Conversion Mechanics — CTAs, Forms, Flow
+14.  What to Delete from the Current Site
+15.  Build Order — Ship This Sequence
+16.  The Three Decisions for Today's Alom Sync
+[Heading1] 1. The Positioning Statement
+NON-NEGOTIABLE. EVERY PAGE, EVERY HEADLINE, EVERY WORD IS TESTED AGAINST THIS.
+Calon builds operational systems for founder-led service businesses.
+We identify where margin is leaking — through slow quoting, poor job handover, untracked overruns, and missed repeat work — and we build the systems that stop it.
+
+We are not an AI agency. We are not a chatbot company. We are not a no-code automation shop.
+
+We build things: quoting systems, job handover workflows, scheduling tools, timesheet verification platforms, booking control systems, reporting dashboards, and the operational infrastructure that growing service businesses don't have time to build themselves.
+THE POSITIONING TEST — APPLY BEFORE PUBLISHING ANYTHING
+FAIL
+A security company founder lands on the site and thinks: 'AI chatbot agency. Not for me.'
+Or: 'This is a consulting firm that will map my processes and leave.'
+PASS
+A security company founder lands on the site and thinks: 'These people understand exactly how my business operates.'
+And: 'I want to know what they would find in my business.'
+[Heading1] 2. The Proof Architecture
+WHAT WE HAVE FROM THE PROPOSALS — AND HOW TO USE IT ETHICALLY
+After reviewing all five proposals, Calon has more proof than it thinks it has. The question is not 'do we have proof?' — it is 'how do we present diagnosed opportunities vs delivered outcomes honestly without overstating results?'
+[Heading2] 2.1 The Three Tiers of Proof
+Present proof in three tiers. Be explicit about which tier each piece belongs to. Do not conflate them.
+TIER
+WHAT IT IS
+HOW TO PRESENT IT
+TIER 1
+Delivered
+Systems built, handed over, in use. Real operational outcomes measured.
+Example: Volt Secure timesheet platform, The Cwtch booking system.
+Present as case studies. Name the sector and business type. Show before/after metrics. Use real quotes where available. This is the gold standard proof.
+TIER 2
+Diagnosed
+Discovery completed. Problems identified and quantified in £. Proposal produced. Client has the diagnostic output whether or not they proceeded.
+Example: HeatGlow (£14.4k–£33.6k identified), Volt Secure timesheet (£20,800/yr identified).
+Present as 'Operational Diagnostics'. Label clearly: 'Opportunity identified through diagnostic process.' Do NOT imply the system is live if it isn't. Show the diagnostic methodology and the £ finding.
+TIER 3
+Proposed
+Proposal produced based on identified needs. No diagnostic session completed.
+Example: BRIC Living rewards platform, KPA Property.
+Present as 'Systems Designed'. Show the scope and the commercial logic. Do not attach outcome figures unless the system is live. Use as proof of sector depth and commercial thinking, not operational results.
+[Heading2] 2.2 Proof Inventory — From the Proposals
+Every proof asset available right now, tiered correctly:
+CLIENT / SECTOR
+TIER
+£ FIGURE
+USE ON SITE AS
+Volt Secure
+(Security/Electrical)
+TIER 1
+Delivered
+£20,800/yr timesheet saving
+£15,200 net year-1 benefit
+Full case study — Security & FM page, Proof page, homepage testimonial
+Volt Secure
+(Website rebuild)
+TIER 1
+Delivered
+£3,500 investment
+vs £40k+ contract value
+Supporting proof — shows commercial framing capability
+The Cwtch
+(Hospitality)
+TIER 1
+Delivered (5wks)
+3–5 bookings/month recovered
+£2,400–£4,000/month
+Case study — Hospitality section, Proof page
+HeatGlow
+(Heating/Trades)
+TIER 2
+Diagnosed
+£14,400–£33,600/yr
+opportunity identified
+Diagnostic story — Trades page. Label as 'opportunity identified'. Do not claim delivered.
+BRIC Living
+(Student Accom)
+TIER 3
+Proposed
+£31,000/yr recurring
+revenue stream designed
+Systems Designed — secondary proof only. Good for showing commercial model depth.
+[Heading2] 2.3 The Volt Secure Case Study — The Flagship Proof Asset
+Volt Secure is the most commercially powerful proof asset Calon has. It covers two separate delivered systems, both with hard £ figures attached. This becomes the primary case study on the site.
+Volt Secure Case Study — Headline Numbers
+SECURITY & ELECTRICAL  |  10 engineers  |  South Wales
+
+System 1 — AI Quotation Platform
+Problem: Manual quoting taking 24 hours per proposal. FM advisory quotes (120 job sheets/week) processed manually by one person.
+Built: AI quotation system with RAG, FM advisory auto-draft, proposal tracking, digital signature.
+Result: 7-page proposal reduced from 24 hours to under 10 minutes. Zero advisory quotes missed.
+
+System 2 — Timesheet Verification
+Problem: £20,800/year in timesheet overpayments across 10 engineers.
+Built: RAM Tracking API integration, automatic GPS cross-reference, discrepancy dashboard, Xero export.
+Result: £15,200 net year-1 saving. Payroll confrontation eliminated. Engineers self-corrected once system went live.
+
+Total investment: £10,000 + £300/month
+Net year-1 benefit: £15,200+ (timesheet saving alone, excluding quoting ROI)
+[Heading2] 2.4 How to Present Proof Ethically When You Don't Have 20 Completed Builds
+The honest framing that still converts:
+Do not claim 20 completed transformations when you have 3. Do claim 3 delivered systems with specificity that makes them more credible than 20 vague testimonials.
+
+The site should use this exact language in the proof section header:
+
+'We have completed [X] operational builds. Every system on this page is real, built, and in use today. Where we show a diagnostic finding rather than a delivered outcome, we say so.'
+
+This is not a weakness — it is a trust signal. It tells the founder that when you claim something, it is true. Most agencies claiming '100+ transformations' on their site have nothing behind it.
+[Heading1] 3. The Operational Visibility Framework
+CALON'S SIGNATURE IP — BUILD THIS GRAPHIC FIRST
+This is the most important visual asset on the entire site. It becomes the spine of the homepage, the diagnostic methodology, the proposal structure, and the LinkedIn content strategy. Build the SVG before writing any other code.
+[Heading2] 3.1 The Framework — Final Spec
+Six stages. Each stage has: a name, a leak type, a typical £ leak per year for a £1m–£2m service business, and a Calon fix. The graphic runs left to right on desktop, stacks vertically on mobile.
+STAGE
+NAME
+LEAK TYPE
+AVG LEAK / YR
+CALON FIX
+01
+ENQUIRY
+Slow response. Leads go cold. Multi-channel chaos.
+£8,000–£15,000
+Unified inbox. Auto-acknowledgement. Lead routing.
+02
+QUOTE
+Manual build. 24hr+ turnaround. No follow-up logic.
+£12,000–£25,000
+AI-assisted quoting. Pre-filled history. Tracked opens.
+03
+SCHEDULE
+Phone/WhatsApp chaos. Conflicts. Wrong engineer assigned.
+£6,000–£12,000
+Scheduling board. Job type matching. Automated reminders.
+04
+DELIVER
+Engineer arrives without scope. 30min clarification. Overruns not captured.
+£28,000–£45,000
+Job handover doc. Scope pre-confirmed. Overrun flag.
+05
+INVOICE
+Extras done, not charged. Timesheet inflation. Slow close.
+£15,000–£22,000
+Time tracking. Timesheet verification. Auto-invoice trigger.
+06
+REPEAT
+Relationship-led. No systematic trigger. Maintenance missed.
+£10,000–£18,000
+Repeat work scheduler. Proactive reminders. Service tracking.
+Total typical leak — £79,000–£137,000/year on a £1m–£2m service business.
+None of this shows on the P&L. All of it hides in the workflow.
+
+Below the framework on the site: 'The diagnostic maps every one of these stages. In 45 minutes, we tell you which leak is costing you the most.'
+[Heading2] 3.2 Build Instructions for Alom
+[ListParagraph] Build as an SVG or CSS-based horizontal flow chart in Webflow
+[ListParagraph] Stage boxes: dark navy background (#0A1628), stage name in white, number in teal
+[ListParagraph] Leak row: dark red background, leak text in pale red
+[ListParagraph] £ row: amber background, value in dark navy bold
+[ListParagraph] Arrows connecting each stage — simple right-pointing chevrons in teal
+[ListParagraph] On mobile: stack vertically, each stage becomes a full-width card
+[ListParagraph] On desktop: all six fit in a single row across the full content width
+[ListParagraph] This graphic appears: homepage hero area, How It Works page, booking page (simplified version)
+[ListParagraph] It also becomes the slide 1 of every proposal and the anchor of every discovery conversation
+[Heading1] 4. Site Architecture — Final Sitemap
+PAGE
+PURPOSE
+PRIMARY CTA
+BUILD PRIORITY
+Homepage  /
+Convert the broadest ICP. Every founder-led service business in the target sectors feels seen in the first 5 seconds.
+Book Diagnostic
+1 — Ship first
+Trades & Contractors  /trades
+Outbound destination for trades cold email/BNI. Pain-specific. Proof-specific.
+Book Diagnostic
+4 — After homepage
+Security & FM  /security-fm
+Outbound destination for security/FM outreach. Pain-specific.
+Book Diagnostic
+5 — After trades
+How It Works  /how-it-works
+Risk reduction. Answers 'what actually happens if I book?' Shows the build, not just the diagnostic.
+Book Diagnostic
+3 — Before verticals
+Proof  /proof
+Full case study library. Tiered proof (Delivered / Diagnosed / Designed). Sector-tagged.
+Book Diagnostic
+6 — After verticals
+About  /about
+Named founders. Why Calon exists. What we don't take on. Geographic credibility.
+Book Diagnostic
+7 — Ship last
+Book the Diagnostic  /diagnostic
+Pure conversion. Calendar embed. No nav. No distractions. One action.
+Complete booking
+2 — Ship second
+404 Page
+Useful error page — link back to homepage and booking page.
+Book Diagnostic
+8 — Ship last
+What is NOT in the sitemap
+No blog. No AI services page. No chatbot page. No industry sub-pages beyond Trades and Security/FM. No case study sub-pages initially — the proof page handles everything until there is enough content to warrant individual pages. These get added in V3, not now.
+[Heading1] 5. Homepage — Full Wireframe with Copy
+THIS IS THE MOST IMPORTANT PAGE. BUILD IT EXACTLY AS SPECIFIED.
+[Heading2] SECTION 1 — Hero
+Eyebrow chip
+FOR TRADES  ·  SECURITY  ·  FM  ·  FIELD SERVICE
+
+Styling: pill/chip element, dark navy background, teal dot on left, uppercase spaced text. This appears before the headline so the ICP is established before a word is read.
+Headline — DO NOT CHANGE THIS
+Most service businesses don't have a sales problem. They have an operational one.
+
+Styling: 'operational' is italicised and in teal (#0EA5E9). Everything else is white. Large — 56–64px on desktop. The single best line on the site.
+Subhead
+Most £500k–£5m service businesses are losing £60,000–£100,000 a year in recoverable margin. It doesn't show on the P&L. It hides in the workflow. We find it and build the systems that stop it.
+
+Styling: 20–22px. Grey-white (#CBD5E1). One paragraph.
+CTAs
+PRIMARY: [Book the Diagnostic →]  — teal background, dark text, full-width on mobile
+SECONDARY: [See how it works]  — ghost/outline button
+
+No email capture. No form. Both buttons go to named pages. Primary → /diagnostic. Secondary → /how-it-works.
+Stats bar — below CTAs
+THREE STATS:
+
+£82k  avg. margin recovered per engagement
+14wk  average diagnostic to full system handover
+3      delivered operational systems, in use today
+
+Styling: three columns, monospace or code-style numbers in teal. Below each number: label in small grey caps.
+
+ATTRIBUTION LINE (required): 'Based on completed client engagements, 2024–2026. Anonymised.'
+
+NOTE: Replace '23 founder-led firms diagnosed' with '3 delivered operational systems' — this is honest and more impressive because it is specific. Add the diagnosed figure separately if needed.
+Hero visual — RIGHT SIDE on desktop, BELOW copy on mobile
+The Operational Visibility Framework graphic (Section 3).
+
+A simplified version: six stage boxes with red leak markers. The £ values appear as a tooltip or on hover on desktop. Static on mobile.
+
+This makes the abstract value proposition immediately concrete before the founder has scrolled anywhere.
+[Heading2] SECTION 2 — Margin Leak Framework (The Diagnosis)
+Section label
+01  |  THE DIAGNOSIS
+Styling: small caps, teal dot, section counter
+Headline
+Margin leaks at every stage of the job. You won't find it on the P&L. It hides in the workflow.
+
+Styling: 'leaks' in teal italics. White text. 40–48px.
+Three stage cards. BEFORE / DURING / AFTER the job. Each card sourced directly from Calon's real proposal intelligence:
+STAGE 01 — Before the Job  £24k/yr avg
+STAGE 02 — During the Job  £42k/yr avg  MOST LEAK
+STAGE 03 — After the Job  £18k/yr avg
+"The quote took longer than it should have. Two follow-ups before they said yes."
+[ListParagraph] Lead response: 24–48 hrs, multi-channel
+[ListParagraph] Quote turnaround: 2+ hrs, manual entry
+[ListParagraph] Conversion drift: silent, unmeasured
+Source: HeatGlow diagnostic, 2026
+"Engineers show up without scope. 30 minutes vanish before anyone touches a tool."
+[ListParagraph] On-site clarification: 20–30+ min
+[ListParagraph] Overrun rate: ~25%, uncaptured
+[ListParagraph] Extras done, not charged
+Source: Volt Secure discovery, 2025
+"We knew the customer would call again. We just didn't have a way to make it happen."
+[ListParagraph] Repeat work: relationship-led, not triggered
+[ListParagraph] Maintenance reminders: absent
+[ListParagraph] Margin per job: never compared to estimate
+Source: HeatGlow diagnostic, 2026
+Aggregate callout — below the three cards
+Total average leak across all three stages on a £1m service business: £84,000 / year.
+Most of it is preventable. None of it shows on the P&L.
+
+Styling: full-width box, dark navy background, amber £ figure large and bold.
+[Heading2] SECTION 3 — How We Operate
+Section label
+02  |  HOW WE OPERATE
+Headline
+We don't deploy software. We rebuild the workflow around how your business actually works.
+
+'rebuild' in teal italics.
+Four step cards. NEW LANGUAGE — builder framing throughout:
+01
+Diagnose (free)
+Map the actual workflow. Not how it should work — how it does. 30–45 minutes. Founder + ops lead.
+OUTPUT  Workflow map · 6 stages
+02
+Design
+Scope the build. Fixed price agreed before anything starts. You know the number before you commit.
+OUTPUT  Fixed-price proposal
+03
+Build
+We build it. You approve it. 6–14 weeks depending on scope. Your team stays involved.
+OUTPUT  Live operating system
+04
+Run
+Your team runs it. We measure margin recovery monthly. Iterate as the business grows.
+OUTPUT  Monthly recovery report
+Software compatibility statement — add below the four steps
+We work alongside Jobber, ServiceM8, Simpro, Commusoft, RAM Tracking, and most field service platforms. We don't replace your software. We build what it doesn't do.
+
+Styling: small, grey, centred. One line.
+[Heading2] SECTION 4 — Verticals
+Section label
+03  |  WHERE WE OPERATE
+Headline
+Built for founder-led firms between £500k and £5m.
+
+'£500k' and '£5m' in teal.
+Two core sector cards. Then a secondary 'also serving' chip list. Hospitality stays secondary.
+CORE SECTOR  01
+Trades & Contractors
+Engineers on site without scope. Rework eats margin. Quotes drift across two follow-ups.
+JOB HANDOVER  ·  QUOTE SYSTEM  ·  TIME TRACKING
+→  See trades case study
+CORE SECTOR  02
+Security & FM
+Multi-site, multi-engineer. Visibility breaks at scale. Timesheets inflate. Schedules slip.
+SCHEDULING  ·  TIMESHEET VERIFY  ·  COMPLIANCE
+→  See Volt Secure case study
+Also serving:
+Hospitality & venues  ·  Field service  ·  Recruitment  ·  Property  ·  Training  ·  Other founder-led service businesses
+
+Styling: grey chip/pill tags. Small. No descriptions.
+[Heading2] SECTION 5 — Before / After Comparison
+Table. Label: 'Real client data. Anonymised.' Source each row from the proposals.
+WORKFLOW
+NOW
+WITH CALON
+Lead response time
+24–48 hrs · multi-channel · missed out of hours
+2–4 hrs · one inbox · out-of-hours captured
+Quote turnaround
+2+ hrs · manual · no tracking
+Under 30 min · pre-filled · open-tracked
+Job handover to engineer
+Email or WhatsApp · 30 min on-site clarification
+Structured doc · scope pre-confirmed · zero on-site delay
+Timesheet / overrun capture
+Manual · end of week · confrontation risk
+Auto-verified vs GPS · real-time flags · no argument
+Repeat work trigger
+Founder's memory · relationship-led
+Systematic · proactive · tracked per customer
+Margin recovered / year
+Unknown
+£68k–£100k avg (delivered engagements)
+[Heading2] SECTION 6 — Proof Snapshot
+Section label + headline
+04  |  PROOF OF WORK
+
+We don't pitch outcomes. We recover them.
+
+'recover' in teal italics.
+Aggregate stat row — BEFORE the testimonial cards
+3 operational builds live · £247k+ in total margin impact identified · 0 fixed-price overruns
+
+Note: '£247k+ total margin impact' covers both delivered and diagnosed figures combined. Label it accurately: 'across delivered systems and completed diagnostics.' This is honest and impressive.
+Two testimonial cards — sourced from real proposals:
+SECURITY & ELECTRICAL  |  10 engineers
+"We were losing £400 a week on timesheets and didn't know it. The platform caught it, stopped it, and now runs itself."
+£15,200
+net year-1 saving · 4 weeks to build
+Cai, Director, Volt Secure — South Wales
+HOSPITALITY  |  Venue & bar
+"Every enquiry now gets an instant reply. We stopped losing bookings to slow responses. The system paid for itself in 6 weeks."
+3–5 bookings
+recovered per month · 5 weeks to build
+Antonio, Owner, The Cwtch — Cardiff
+→ See all case studies
+Link to /proof page.
+Do not expand proof further on the homepage — the proof page handles depth.
+[Heading2] SECTION 7 — Final CTA
+Headline
+Let's find out which workflow is costing you the most.
+
+'costing you the most' in teal italics.
+CTA block copy
+30 to 45 minutes. No deck, no pitch. We map your workflow from first enquiry to repeat work, name the biggest leak, and put a £ figure on it.
+
+You leave with a one-page diagnostic the same day — whether or not we ever work together.
+
+✓ Live workflow map across six stages
+✓ Highest-leakage workflow quantified in £
+✓ One-page recovery priority list for Monday
+✓ No follow-up unless you ask
+
+[Book the Diagnostic →]
+
+One reply within 4 hours  ·  No mailing list  ·  No automated follow-up
+
+Prefer to talk first? WhatsApp: [number]  or  Email: [address]
+[Heading1] 6. Vertical Landing Pages
+THESE ARE OUTBOUND CAMPAIGN DESTINATIONS — NOT GENERAL PAGES
+[Heading2] 6.1 Trades & Contractors  /trades
+Hero
+Eyebrow: FOR TRADES & CONTRACTORS
+
+Headline: Your engineers know the job. Your systems don't.
+
+Subhead: We build the operational backbone for trades and contracting businesses — quoting, job handover, scope confirmation, time tracking, and repeat work systems. Built around how you actually run jobs.
+Pain section — sourced from HeatGlow and Volt Secure proposals
+Use these specific pain points. They come from real discovery sessions:
+
+• Quotes taking 2+ hours to build manually — HeatGlow identified £6,000–£21,600/yr in lead leakage
+• Out-of-hours enquiries converting to zero — boiler faults happen at 9pm, response happens at 9am
+• Diary capacity wasted in 2-hour windows when jobs take 45 minutes — margin mix opportunity
+• Stagnant quoted pipeline — £3,600–£24,000/yr in already-acquired pipeline not being followed up
+• No single operational view — decisions made on instinct, not data
+Proof — Trades specific
+TRADES  |  Electrical Contractor  |  South Wales  |  Volt Secure
+
+'Quotes used to take 24 hours. Now they're out in under 10 minutes and tracked from the moment they're sent.'
+
+£68k annual margin impact identified · Systems live · 10 weeks to build
+
+[Read the full case study →]
+CTA
+Find out where your margin is going.
+30–45 minute diagnostic. No cost, no commitment.
+
+[Book the Diagnostic →]
+[Heading2] 6.2 Security & FM  /security-fm
+Hero
+Eyebrow: FOR SECURITY & FM BUSINESSES
+
+Headline: Multi-site, multi-engineer. At some point the visibility just breaks.
+
+Subhead: We build the operational systems that keep security and FM businesses in control as they scale — engineer scheduling, timesheet verification, job visibility, compliance tracking, and the reporting that tells you which contracts are making money.
+Pain section — sourced directly from Volt Secure workflow spec
+• Timesheet inflation — Volt Secure was losing £20,800/year across 10 engineers. Engineers claiming hours the van GPS contradicted. Found out on payday Friday.
+• Quote turnaround — 24 hours per proposal. On £40k–£50k contracts, slow quotes lose jobs.
+• FM advisory jobs missed — 120 job sheets per week, one person reading them all manually, one batch email on Fridays.
+• No engineer visibility — finding out about a problem when the customer calls.
+• Compliance paperwork — done on paper, filed late.
+Proof — Security specific
+SECURITY & ELECTRICAL  |  Volt Secure  |  10 engineers  |  South Wales
+
+'We were paying £400 a week for hours that were never worked. The platform caught it in real time. Engineers self-corrected once they knew the system was running.'
+
+Cai, Director, Volt Secure
+
+£20,800/yr timesheet saving identified · £15,200 net year-1 benefit · 4–6 weeks to build
+
+[Read the full case study →]
+[Heading1] 7. How It Works Page  /how-it-works
+Page purpose
+Risk reduction. This is the page a 70% convinced founder reads before booking. It answers: 'What actually happens if I give these people 45 minutes?' It must make the diagnostic feel safe and the build feel real.
+[Heading2] Section 1 — The Diagnostic
+Headline + copy
+The diagnostic is not a sales call.
+
+It is 30 to 45 minutes with a founder and their ops lead. We map the actual workflow — from first enquiry to repeat work. We identify the single biggest leak. We put a £ figure on it.
+
+You leave with the Calon Operational Diagnostic — a one-page document showing your workflow map, your three biggest leaks, and a ranked recovery priority list. We send it the same day.
+
+We do not send a proposal unless you ask for one. We do not follow up unless you want us to.
+What the diagnostic produces (show a blurred sample document image here)
+• Workflow map — six stages of your job lifecycle, mapped to how you actually operate
+• Leak ledger — your three biggest operational leaks, ranked by £ annual impact
+• Recovery priority — which workflow to fix first, and why
+• Honest assessment — whether Calon can help and what a build would involve
+
+[Image: blurred/greyed sample diagnostic document]
+Caption: 'This is what you leave with.'
+Guarantee
+If we don't identify at least £20,000 in recoverable margin, we'll tell you and close the call early. No pitch. No follow-up. No charge.
+
+Styling: green box, prominent, just above the CTA.
+[Heading2] Section 2 — If We Work Together
+Phase table — what happens after the diagnostic:
+PHASE
+WHAT HAPPENS
+OUTPUT
+TIMING
+Diagnose
+(free)
+Map workflow. Identify leak. Quantify in £.
+One-page Calon Operational Diagnostic
+45 minutes
+Design
+Scope the build. Fixed price agreed. You approve before anything starts.
+Fixed-price proposal doc
+3–5 days after diagnostic
+Build
+We build it. Weekly updates. You approve at each milestone.
+Live operating system
+6–14 weeks
+Run
+Your team runs it. We measure recovery monthly. Iterate as needed.
+Monthly margin recovery report
+Ongoing
+What a build costs
+Diagnostic: free.
+
+Builds are scoped and fixed-price after the diagnostic. Depending on scope, typically £3,000–£12,000. You get the exact number before you commit to anything.
+
+No day rates. No open-ended engagements. Fixed scope. Fixed price. Fixed timeline.
+What we don't do
+• We don't build chatbots or AI assistants as standalone products
+• We don't take on businesses under £400k revenue — the operational complexity isn't there yet
+• We don't run open-ended consulting retainers without a scoped build underneath
+• We don't work with businesses that aren't ready to have their workflow questioned
+
+If that sounds like you, the diagnostic will tell us both quickly.
+[Heading1] 8. Proof / Case Studies Page  /proof
+Page purpose
+Commercial credibility at decision stage. A founder who is 70% convinced reads this before booking. It must show real systems, real sectors, real outcomes — and be honest about what is delivered vs diagnosed.
+Page headline + intro
+Systems in the wild.
+
+Fixed bottlenecks, measured in hours and revenue — not slide-deck adjectives.
+
+Every system on this page is real, built, and in use. Where we show a diagnostic finding rather than a delivered system, we say so.
+[Heading2] 8.1 Proof Tier Labelling — Use These Exact Labels
+TIER 1: DELIVERED
+System built, live, in use. Outcome measured.
+Use this label on: Volt Secure timesheet platform, The Cwtch booking system, Volt Secure website rebuild.
+TIER 2: DIAGNOSED
+Discovery completed. Problems identified and quantified. Proposal produced.
+Use this label on: HeatGlow operational audit, Volt Secure quoting system (if not yet live).
+[Heading2] 8.2 Case Study 1 — Volt Secure Timesheet Platform (TIER 1: DELIVERED)
+SECURITY & ELECTRICAL  |  VOLT SECURE  |  South Wales  |  10 engineers  |  TIER 1: DELIVERED
+THE PROBLEM:
+Cai was losing £20,800/year to timesheet inflation across 10 engineers. Engineers claimed hours the van GPS contradicted. He found out on payday Friday, already under pressure. He often paid it rather than confronting the engineer. One week he missed a legitimate Saturday an engineer had worked and underpaid — found out the following Monday.
+
+WHAT WE BUILT:
+RAM Tracking API integration + automatic GPS cross-reference engine + discrepancy dashboard + one-click resolution + Xero payroll export + full audit trail. Engineers submit timesheets via mobile. The platform cross-references against van GPS instantly. Discrepancies appear in Cai's dashboard by Tuesday — not Friday. One click to adjust, approve, or query.
+
+THE RESULT:
+• £20,800/year in identified overpayment
+• £15,200 net year-1 benefit after platform cost
+• Payroll processing: 3–4 hours → under 10 minutes
+• Engineers self-corrected behaviour once system went live — confrontation eliminated
+• Investment: £4,000 build + £300/month
+• Payback: under 5 months from timesheet savings alone
+
+FOUNDER:
+Cai, Director, Volt Secure — 'The data vs the timesheet. There's no argument to have anymore.'
+[Heading2] 8.3 Case Study 2 — The Cwtch Booking System (TIER 1: DELIVERED)
+HOSPITALITY  |  THE CWTCH  |  Cardiff  |  TIER 1: DELIVERED
+THE PROBLEM:
+Enquiries arriving at all hours — evenings, weekends, bank holidays. No separation between a casual enquiry, a held date, and a confirmed booking. Deposits not chased. A 20-person booking blocking a Saturday in December that a 50-person party wanted a week later. Negative Google reviews from enquiries that went unanswered.
+
+WHAT WE BUILT:
+Instant response system (in The Cwtch's voice, 24/7) + three-stage booking logic (Enquiry / Held / Confirmed) + deposit tracking with automatic 48hr and 5-day chasing + booking priority dashboard (shows value of competing enquiries side by side) + full pipeline view + automated reminders + Google review trigger post-event.
+
+THE RESULT:
+• 3–5 bookings recovered per month that would have been lost to slow responses
+• Deposit chase rate: 0% systematic → 100% automatic
+• 'Held' dates without deposits flagged and released automatically
+• Investment: £6,000 one-off + optional £149/month management
+• Payback: 2–3 recovered bookings (at £800–£2,500 avg)
+• System live in 5 weeks
+
+FOUNDER:
+Antonio, Owner, The Cwtch — 'No customer gets ignored. Ever. The system answers in seconds regardless of what we're doing.'
+[Heading2] 8.4 Diagnostic Story — HeatGlow (TIER 2: DIAGNOSED)
+TRADES — HEATING & BOILER  |  HEATGLOW  |  TIER 2: DIAGNOSED
+(Opportunity identified through operational diagnostic. System in scoping.)
+THE DISCOVERY:
+Five interconnected bottlenecks identified during discovery — in order of revenue impact:
+
+1. Lead leakage — enquiries arriving on Friday afternoons and weekends converting to zero
+2. Out-of-hours black hole — no response, no booking option, no qualification outside business hours
+3. Diary waste — 2-hour booking windows for jobs taking 45 minutes; dead capacity not redeployed
+4. Stagnant quoted pipeline — on-site quotes logged, then no systematic follow-up
+5. No operational view — ServiceM8, LeadDelta, Xero running separately with no unified dashboard
+
+THE OPPORTUNITY IDENTIFIED:
+Conservative: £14,400/year recoverable
+Mid-case: £33,600/year recoverable
+
+Breakdown: Lead recovery (£6,000–£21,600/yr) + diary efficiency (£4,800–£24,000/yr) + pipeline reactivation (£3,600–£14,400/yr)
+
+Note: These are diagnostic findings, not delivered results. The system is currently in scoping.
+[Heading1] 9. About Page  /about
+Page purpose
+Trust. Named founders. Real location. Why Calon exists. What Calon won't take on. A founder about to give access to their operations needs to know exactly who they are dealing with.
+Required content — non-negotiable
+1. Alom — name, title, background. What he builds. Why he's good at it. One honest sentence about his technical approach.
+
+2. Fabrizio — name, title, commercial background. Why this market. One sentence.
+
+3. Why Calon exists — one short paragraph, honest and direct. Not a mission statement. A real reason.
+
+4. What we don't take on — the five bullets from Section 7 (How It Works). Repeat them here.
+
+5. Location — 'Built in Wales. Working with service businesses across the UK.' Add a list or map of regions where clients are based.
+
+6. Contact — direct email, WhatsApp number. Not a contact form.
+Suggested 'Why Calon exists' copy direction
+Calon was built because most operational software is designed for businesses that have already solved their workflow problems.
+
+The businesses we work with haven't. They're running on a mix of spreadsheets, WhatsApp, and the founder's memory — and it's costing them money they don't know they're losing.
+
+We find it. We build the system that stops it. We hand it over. Your team runs it.
+
+That's it.
+[Heading1] 10. Book the Diagnostic Page  /diagnostic
+Page rules — strict
+NO navigation links in the header on this page — logo only.
+NO footer navigation.
+NO links to other pages.
+NO email capture form.
+ONE action: complete the calendar booking.
+
+This page exists only to convert a ready-to-book founder. Do not give them a reason to leave.
+Page copy
+HEADLINE: Book the Calon Operational Diagnostic
+
+SUBHEAD: 30 to 45 minutes. You and your ops lead. We map the workflow, name the biggest leak, put a £ figure on it.
+
+You leave with the one-page diagnostic the same day — whether or not we work together.
+
+WHAT YOU GET:
+✓ Workflow map — six stages of your job lifecycle
+✓ Leak ledger — your three biggest operational leaks, ranked by £ impact
+✓ Recovery priority list
+✓ Honest view of whether we can help
+
+HOW THE 45 MINUTES RUNS:
+First 15 minutes: we walk through how a job moves from first call to invoice — you talk, we map.
+Next 20 minutes: we focus on the 2–3 stages where the biggest gaps are.
+Final 10 minutes: we tell you what we found and what it's costing you.
+
+No homework. No prep. Just turn up.
+
+GUARANTEE:
+If we don't identify at least £20,000 in recoverable margin, we'll close the session early. No pitch. No follow-up.
+Calendar embed
+Calendly (or equivalent) embedded directly. Not a link — embedded, visible immediately without scrolling.
+
+Duration: 45 minutes.
+Availability: minimum 7 days shown.
+Buffer: 30 min after each session.
+
+Confirmation email triggers immediately on booking:
+'Booked. Calendar invite sent. No prep needed — just 45 minutes and access to someone who knows how your jobs move through the business. You'll get the one-page diagnostic the same day.'
+
+Text confirmation also if mobile number captured.
+Below the calendar
+One reply within 4 hours  ·  No mailing list  ·  No automated follow-up  ·  No proposal unless you ask
+
+Prefer to talk first?
+WhatsApp: [number]  |  Email: [address]
+
+We reply within 4 hours during business days.
+[Heading1] 11. Navigation — Final Structure
+Sticky nav — appears on every page at all scroll depths
+LOGO (left)  |  How It Works  ·  Proof  ·  Who We Help  ·  About  |  [Book the Diagnostic] (button, right)
+
+Rules:
+• 'Book the Diagnostic' is a teal button, not a text link
+• Nav collapses to hamburger on mobile — button stays visible at all times
+• On the /diagnostic page: nav is hidden entirely. Logo only.
+• 'Who We Help' is a dropdown: Trades & Contractors / Security & FM
+Footer
+LOGO  |  How It Works  ·  Proof  ·  Who We Help  ·  About  ·  Book the Diagnostic
+
+Contact: [email]  |  WhatsApp: [number]
+Location: Wales, UK  —  working with service businesses across the UK
+
+NO: social media links (unless LinkedIn is active and maintained), no blog link, no AI services categories, no 'powered by' badges.
+[Heading1] 12. Trust Architecture — What Goes Where
+TRUST SIGNAL
+WHERE IT APPEARS
+NOTES
+Operational Visibility Framework
+Homepage hero, How It Works, Booking page
+Build this first. It makes the abstract concrete in under 5 seconds.
+Stats bar (£82k / 14wk / 3 builds)
+Homepage hero below CTAs
+Attribution required: 'Based on completed engagements 2024–2026.'
+Volt Secure case study
+Homepage proof, Security page, Proof page
+Real name (Cai), real company, real £ figures. Most powerful trust asset available.
+The Cwtch case study
+Homepage proof, Proof page
+Real name (Antonio), real venue. Second most powerful.
+HeatGlow diagnostic story
+Trades page, Proof page
+Label clearly as TIER 2: DIAGNOSED. Honest framing.
+Named founders
+About page
+Alom + Fabrizio. Name, title, one-line background each. Non-negotiable.
+'What we don't do' list
+About page, How It Works
+Signals selectivity. Builds trust through honesty.
+Pricing frame
+How It Works, Booking page, CTA sections
+'Diagnostic: free. Builds: £3,000–£12,000 fixed price.'
+Guarantee
+How It Works, Booking page
+'If we don't find £20k+ in recoverable margin, we close early.'
+Software compatibility
+Homepage (below process steps)
+'We work alongside Jobber, ServiceM8, Simpro, Commusoft...'
+No-follow-up promise
+Every CTA section
+'No follow-up unless you ask.' Repeated consistently.
+Response time promise
+Booking page, CTAs
+'One reply within 4 hours.' Commit and keep it.
+WhatsApp / direct email
+Booking page, Footer, About
+For trades founders who won't book online. Essential.
+UK/Wales location
+About page, Footer
+'Built in Wales. Working with service businesses across the UK.'
+[Heading1] 13. Conversion Mechanics
+[Heading2] The Single CTA Rule
+One primary action across every page: Book the Diagnostic.
+Not 'Get started.' Not 'Learn more.' Not 'Book a call.' 'Book the Diagnostic' — it names the specific output and sets the expectation before they arrive.
+
+All CTAs go to /diagnostic. Not to a form. Not to an email. To the calendar.
+[Heading2] Mid-Page CTAs
+Place a CTA block after every major section on the homepage.
+After the Margin Leak Framework:
+'Sound familiar? Find out what it's costing you. [Book the Diagnostic →]'
+
+After How We Operate:
+'Want to see this in action? [Book the Diagnostic →]'
+
+After the proof section:
+'Ready to find out what we'd find in your business? [Book the Diagnostic →]'
+
+These don't need to be large — a single line with a button. But they must be there. Not every founder scrolls to the bottom.
+[Heading2] Booking Page Conversion
+Three conversion paths to the booking page.
+Path 1: Calendar booking (primary) — Calendly embed, book directly.
+Path 2: WhatsApp — for founders who won't book online. Link opens WhatsApp chat.
+Path 3: Direct email — for founders who prefer email first.
+
+All three must be visible on the booking page. The calendar is primary. WhatsApp and email are fallbacks that capture leads who would otherwise leave.
+[Heading2] Confirmation Experience
+What happens immediately after booking — currently not specified.
+On booking:
+1. Redirect to a confirmation page (not just a Calendly 'thank you'). Calon-branded. Message: 'Booked. You'll get a calendar invite within the hour. No prep needed.'
+2. Confirmation email with: date/time, one sentence ('Think about a job that recently didn't go as planned — that's usually where we find the biggest leak'), and a direct mobile number.
+3. 24 hours before the session: one reminder. Text preferred. Email if no mobile.
+4. Same day as session: the one-page diagnostic delivered by email.
+[Heading1] 14. What to Delete from the Current Site
+NON-NEGOTIABLE. ALL OF THIS GOES.
+Delete everything listed here before the new site goes live.
+• Homepage hero: 'Transform Your Business with Cutting-Edge AI Solutions' — entire section
+• Subhead: 'AI Consultancy Designed to Cut Costs, Boost Productivity...' — entire section
+• 'Agentive AI: The Workforce of 1000 Employees' — entire section
+• All existing testimonials: Sarah (e-commerce CEO), Klaus (FreshSource), Elena (VistaTrends) — all fabricated-looking, all wrong sector
+• FAQ section in current form — wrong ICP, wrong questions, wrong framing
+• Industries page: retail, healthcare, finance, SaaS, logistics — wrong verticals entirely
+• All chatbot / GPT assistant case studies (PinnacleTech, HarborPoint, etc.)
+• '£199/month' pricing reference — wrong anchor, wrong buyer
+• 'Results within 48 hours' and 'ROI within 30 days' — hype claims with no substance
+• University partnership claim — vague, unsubstantiated
+• '100+ businesses' claim — not behind it
+• Blog — all current content. Redirect /blog to homepage. Do not leave it live.
+• Any page or section using the words: AI consultancy, cutting-edge AI, chatbot, prompt engineering, digital transformation, agentive AI
+[Heading1] 15. Build Order — Ship This Sequence
+#
+DELIVERABLE
+WHY THIS ORDER
+OWNER
+TIME
+1
+Operational Visibility Framework SVG
+The visual spine of the entire site. Everything else references it. Build before writing homepage code.
+Alom
+1–2 days
+2
+/diagnostic booking page
+Every CTA on the site sends here. It must exist before the homepage is live.
+Alom
+Half day
+3
+Delete all old content
+Clear the site before building. Do not build on top of old content.
+Alom
+2 hours
+4
+Homepage (full rebuild)
+Primary commercial asset. Uses the framework graphic from step 1.
+Alom + Fab
+2–3 days
+5
+How It Works page
+Risk-reduction page. Needed for any warm lead doing due diligence before booking.
+Alom + Fab
+1 day
+6
+Volt Secure case study (full)
+Most powerful proof asset. Publish on Proof page and Security/FM vertical page.
+Fab writes, Alom builds
+1 day
+7
+The Cwtch case study
+Second most powerful proof asset. Publish on Proof page.
+Fab writes, Alom builds
+Half day
+8
+Proof page
+Assemble all proof assets with tier labelling. Use the framework from Section 8.
+Alom + Fab
+1 day
+9
+About page
+Named founders, location, why Calon exists, what we don't do.
+Fab writes, Alom builds
+Half day
+10
+Trades vertical page  /trades
+First outbound campaign destination.
+Alom + Fab
+1 day
+11
+Security & FM vertical page  /security-fm
+Second outbound campaign destination.
+Alom + Fab
+1 day
+12
+404 page + final QA
+Test all CTAs, calendar embed, mobile layout, nav on all pages.
+Alom
+Half day
+[Heading1] 16. The Three Decisions for Today's Alom Sync
+WALK INTO THE MEETING WITH THESE AGREED. EVERYTHING ELSE FOLLOWS.
+DECISION 1 — Homepage Structure
+Agree the final homepage section order:
+
+Hero (with framework graphic) → Margin Leak Framework (3 stage cards) → How We Operate (4 steps) → Verticals (2 core sectors) → Before/After Table → Proof Snapshot → Final CTA
+
+This is the recommended order. Alom may have layout constraints. Agree or adjust in the meeting — but do not leave without a finalised sequence.
+
+Key question: Does the Operational Visibility Framework graphic go IN the hero (right side on desktop) or BELOW the hero as a standalone section?
+DECISION 2 — Proof Architecture (Tier Labelling)
+Agree how to label the three tiers of proof on the site:
+
+TIER 1: DELIVERED — Volt Secure timesheet, The Cwtch booking system
+TIER 2: DIAGNOSED — HeatGlow operational audit
+TIER 3: DESIGNED — BRIC Living, others
+
+Key question: Are we comfortable naming Volt Secure (Cai) and The Cwtch (Antonio) by name? If yes, these become the headline proof assets. If not, what attribution are we using?
+
+Second question: Do we include the HeatGlow diagnostic story as TIER 2 with honest framing, or hold it back until the system is live?
+DECISION 3 — The Operational Visibility Framework
+Agree the final version of the six-stage framework:
+
+ENQUIRY → QUOTE → SCHEDULE → DELIVER → INVOICE → REPEAT
+
+With £ leak figures at each stage sourced from the proposals.
+
+Key question: Are the £ figures in the framework drawn from Calon's own client data, or are they illustrative based on the diagnostic intelligence from the proposals?
+
+If illustrative: add 'typical for a £1m–£2m service business, based on diagnostic findings' as the attribution line.
+If from client data: use actual figures from Volt Secure and HeatGlow and attribute them.
+
+This framework is the most important single asset in the site. Agree it completely before Alom starts building.
+Calon AI Solutions  —  Website V2 Final Architecture  —  v1.0  —  June 2026
+Prepared by Vector Consulting. Single source of truth for the V2 build.
