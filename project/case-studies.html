@@ -11,6 +11,50 @@
 <link rel="stylesheet" href="styles/pages.css">
 <link rel="stylesheet" href="styles/blocks.css">
 <link rel="stylesheet" href="styles/carousel.css">
+<style>
+/* ── Tier filter tabs ──────────────────────────────────────── */
+.cs-browse-head{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:20px;flex-wrap:wrap;padding-bottom:30px;
+  border-bottom:1px solid var(--line-light);
+}
+.cs-filters{display:flex;gap:9px;flex-wrap:wrap;}
+.cs-filter{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--mono);font-size:11.5px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;
+  padding:9px 17px;border-radius:100px;
+  border:1px solid var(--line-light);background:var(--paper-2);
+  color:var(--slate);cursor:pointer;
+  transition:background .18s,border-color .18s,color .18s,box-shadow .18s;
+}
+.cs-filter:hover{border-color:var(--teal-deep);color:var(--teal-deep);}
+.cs-filter.active[data-filter="all"]{background:var(--ink);border-color:var(--ink);color:#fff;}
+.cs-filter.active[data-filter="t1"]{background:var(--teal);border-color:var(--teal);color:#04243a;}
+.cs-filter.active[data-filter="t2"]{background:var(--amber);border-color:var(--amber-600);color:#3a2503;}
+.cs-filter.active[data-filter="t3"]{background:var(--on-dark);border-color:var(--slate);color:var(--navy-850);}
+.cf-dot{width:7px;height:7px;border-radius:50%;flex:none;}
+.cf-dot--t1{background:var(--teal);}
+.cf-dot--t2{background:var(--amber);}
+.cf-dot--t3{background:var(--on-dark-dim);}
+/* ── Browse card grid ──────────────────────────────────────── */
+.cs-filtergrid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:28px;
+}
+.cs-filtergrid .cscard{flex-basis:auto;}
+.cs-filtergrid .cscard[hidden]{display:none;}
+.cs-count{
+  margin-top:20px;font-family:var(--mono);font-size:12px;
+  letter-spacing:.06em;color:var(--slate-dim);
+}
+.cs-count strong{color:var(--teal-deep);font-weight:700;}
+@media (max-width:960px){
+  .cs-filtergrid{grid-template-columns:1fr 1fr;}
+  .cs-browse-head{flex-direction:column;align-items:flex-start;}
+}
+@media (max-width:620px){.cs-filtergrid{grid-template-columns:1fr;}}
+</style>
 </head>
 <body>
 
@@ -197,6 +241,120 @@
 
   </div>
 </header>
+
+
+<!-- ═══════════════════════════════════════════════
+     BROWSE ALL — filterable card grid
+     ═══════════════════════════════════════════════ -->
+<section class="section s-paper" id="browse">
+  <div class="wrap">
+
+    <div class="cs-browse-head reveal">
+      <div>
+        <span class="overline" style="color:var(--teal-deep);">
+          <span class="dot" style="background:var(--teal-deep);box-shadow:0 0 0 4px rgba(7,94,135,.15);"></span>Browse all case studies
+        </span>
+      </div>
+      <div class="cs-filters" role="group" aria-label="Filter by tier">
+        <button class="cs-filter active" data-filter="all">All</button>
+        <button class="cs-filter" data-filter="t1"><span class="cf-dot cf-dot--t1"></span>Tier 1 · Delivered</button>
+        <button class="cs-filter" data-filter="t2"><span class="cf-dot cf-dot--t2"></span>Tier 2 · In Build / Diagnosed</button>
+        <button class="cs-filter" data-filter="t3"><span class="cf-dot cf-dot--t3"></span>Tier 3 · Designed</button>
+      </div>
+    </div>
+
+    <div class="cs-filtergrid reveal">
+
+      <a class="cscard" href="case-studies.html#volt-timesheet" data-tier="t1">
+        <div class="cscard-media">
+          <span class="cscard-watermark">TIMESHEET VERIFICATION</span>
+          <image-slot id="cs-grid-volt-timesheet" shape="rect" placeholder="Drop a photo / screenshot"></image-slot>
+          <span class="cscard-badge b1">Tier 1 · Delivered</span>
+        </div>
+        <div class="cscard-body">
+          <span class="cscard-sector">Security &amp; Electrical · South Wales</span>
+          <h3 class="cscard-title">Stopped timesheet leakage and cut payroll checking from hours to minutes.</h3>
+          <div class="cscard-stat"><span class="n">£15,200</span><span class="l">net year-one benefit · £20,800/yr identified</span></div>
+          <span class="cscard-link">Read case study →</span>
+        </div>
+      </a>
+
+      <a class="cscard" href="case-studies.html#volt-quote" data-tier="t2">
+        <div class="cscard-media">
+          <span class="cscard-watermark">QUOTATION PLATFORM</span>
+          <image-slot id="cs-grid-volt-quote" shape="rect" placeholder="Drop a photo / screenshot"></image-slot>
+          <span class="cscard-badge b2">Tier 2 · In Build</span>
+        </div>
+        <div class="cscard-body">
+          <span class="cscard-sector">Security &amp; Electrical · South Wales</span>
+          <h3 class="cscard-title">Slow manual quoting became a fast, tracked proposal system.</h3>
+          <div class="cscard-stat"><span class="n">24h → 10m</span><span class="l">proposal build time · quoting now tracked</span></div>
+          <span class="cscard-link">Read case study →</span>
+        </div>
+      </a>
+
+      <a class="cscard" href="case-studies.html#cwtch" data-tier="t1">
+        <div class="cscard-media">
+          <span class="cscard-watermark">BOOKING CONTROL</span>
+          <image-slot id="cs-grid-cwtch" shape="rect" placeholder="Drop a photo / screenshot"></image-slot>
+          <span class="cscard-badge b1">Tier 1 · Delivered</span>
+        </div>
+        <div class="cscard-body">
+          <span class="cscard-sector">Hospitality · Cardiff</span>
+          <h3 class="cscard-title">Stopped losing bookings from slow replies and unclear booking stages.</h3>
+          <div class="cscard-stat"><span class="n">3–5 / mo</span><span class="l">bookings recovered · ~£2.4k–£4k/month</span></div>
+          <span class="cscard-link">Read case study →</span>
+        </div>
+      </a>
+
+      <a class="cscard" href="case-studies.html#heatglow" data-tier="t2">
+        <div class="cscard-media">
+          <span class="cscard-watermark">OPERATIONAL DIAGNOSTIC</span>
+          <image-slot id="cs-grid-heatglow" shape="rect" placeholder="Drop a photo / screenshot"></image-slot>
+          <span class="cscard-badge b2">Tier 2 · Diagnosed</span>
+        </div>
+        <div class="cscard-body">
+          <span class="cscard-sector">Heating / Trades</span>
+          <h3 class="cscard-title">Found where quote delays and follow-up gaps were leaking revenue.</h3>
+          <div class="cscard-stat"><span class="n">£14.4k–£33.6k</span><span class="l">/yr opportunity identified</span></div>
+          <span class="cscard-link">Read case study →</span>
+        </div>
+      </a>
+
+      <a class="cscard" href="case-studies.html#bric" data-tier="t3">
+        <div class="cscard-media">
+          <span class="cscard-watermark">REWARDS / RECURRING REVENUE</span>
+          <image-slot id="cs-grid-bric" shape="rect" placeholder="Drop a photo / screenshot"></image-slot>
+          <span class="cscard-badge b3">Tier 3 · Designed</span>
+        </div>
+        <div class="cscard-body">
+          <span class="cscard-sector">Student Accommodation / Property</span>
+          <h3 class="cscard-title">Showed how an unused customer base could become recurring revenue.</h3>
+          <div class="cscard-stat"><span class="n">£31,000</span><span class="l">/yr recurring revenue stream designed</span></div>
+          <span class="cscard-link">Read case study →</span>
+        </div>
+      </a>
+
+      <a class="cscard" href="case-studies.html#volt-web" data-tier="t1">
+        <div class="cscard-media">
+          <span class="cscard-watermark">WEBSITE &amp; POSITIONING</span>
+          <image-slot id="cs-grid-volt-web" shape="rect" placeholder="Drop a photo / screenshot"></image-slot>
+          <span class="cscard-badge b1">Tier 1 · Delivered</span>
+        </div>
+        <div class="cscard-body">
+          <span class="cscard-sector">Security / Electrical · Supporting proof</span>
+          <h3 class="cscard-title">Repositioned the website around commercial trust, not generic services.</h3>
+          <div class="cscard-stat"><span class="n">£3,500 → £40k+</span><span class="l">investment vs contract value</span></div>
+          <span class="cscard-link">Read case study →</span>
+        </div>
+      </a>
+
+    </div><!-- /.cs-filtergrid -->
+
+    <p class="cs-count reveal"><strong class="cs-count-n">6</strong> case studies shown</p>
+
+  </div>
+</section>
 
 
 <!-- ═══════════════════════════════════════════════
@@ -646,5 +804,34 @@
 
 <script src="image-slot.js"></script>
 <script src="styles/calon.js"></script>
+<script>
+(function(){
+  var filters = document.querySelectorAll('.cs-filter');
+  var cards   = document.querySelectorAll('.cs-filtergrid .cscard');
+  var countEl = document.querySelector('.cs-count-n');
+  if(!filters.length) return;
+
+  filters.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var f = this.dataset.filter;
+
+      /* update active tab */
+      filters.forEach(function(b){ b.classList.remove('active'); });
+      this.classList.add('active');
+
+      /* show / hide cards */
+      var n = 0;
+      cards.forEach(function(card){
+        var show = f === 'all' || card.dataset.tier === f;
+        card.hidden = !show;
+        if(show) n++;
+      });
+
+      /* update count */
+      if(countEl) countEl.textContent = n;
+    });
+  });
+})();
+</script>
 </body>
 </html>
